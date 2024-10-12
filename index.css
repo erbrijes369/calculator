@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(darkbeby.jpg);
+    background-size: cover;
+}
+
+.set1{
+    
+    border-radius: 25px;
+}
+.set2{
+    margin-left: 20px;
+}
+.calculator{
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 0px 3px 15px rgba(red,green,blue);
+    border-radius: 16px;
+    background: rgba(0,0,0,0.5);
+    justify-content: center;
+    border: 1px solid white;
+    
+
+
+}
+.calculator:hover{
+    background: url(green.jpg);
+    background-size: cover;
+
+}
+.line{
+    margin-left: 32px;
+
+}
+input{
+    height: 25px;
+    width: 300px;
+    padding: 24px;
+    margin: 10px;
+    margin-right: 10px;
+    background: rgba(34, 94, 247, 0.3);
+    box-shadow: inset 0px 0px 8px rgba(0,0,0,0.4);
+    font-size: 65px;
+    color: aliceblue;
+    border: solid 2px rgba(0,0,0,0.3);
+    border-radius: 16px;
+    text-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+    cursor: none;
+    text-align: right;
+
+}
+
+input::placeholder{
+    color: azure;
+    cursor: none;
+
+}
+button{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    color: aliceblue;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 24px;
+    cursor: pointer;
+    border: solid 1px rgba(255,255,255,0.2);
+    border-radius: 25px;
+    text-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+    box-shadow: -1px 2px 10px rgba(0,0,0,0.5);
+
+}
+button:hover{
+    background-color: azure;
+    color: black;
+    transform: translateY(-10px);
+}
+.equalBtn{
+    background-color: red;
+}
+.operator{
+    color:red;
+}
